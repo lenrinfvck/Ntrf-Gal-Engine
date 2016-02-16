@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ntrf-example</title>
+    <link rel="stylesheet" href="css/gal.css">
+    <script src="lib/sea.js"></script>
+</head>
+<body>
+    <div class="center-con">
+        <div class="gal">
+            <div class="bg"></div>
+            <div class="lh-stage">
+                <div class="lh-stage-warp">
+                    <img src="" width="60%" alt="">
+                </div>
+            </div>
+            <div class="dia-block">
+                <div class="dia-title"></div>
+                <p class="dia-fonts"></p>
+            </div>
+        </div>
+        <textarea class="gal-script"></textarea>
+        <div class="btn">RELOAD</div>
+    </div>
+    <script>
+        seajs.config({
+          base: '/js',
+          //别名
+          alias: {
+            'jquery': '/lib/jquery-1.11.1.min.js'
+          }
+        });
+
+        // 加载入口模块
+        seajs.use('main');
+    </script>
+</body>
+</html>

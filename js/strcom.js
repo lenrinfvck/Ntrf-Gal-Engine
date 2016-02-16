@@ -1,0 +1,1 @@
+(function(f){typeof define==="function"?define(f):f()})(function(require,exports,module){function Strcom(){}Strcom.prototype={trim:function(r){return r.replace(/\s+/g,"")},clearBr:function(r){return r.replace(/[\r\n]/g,"")},clear:function(r){return this.clearBr(this.trim(r))},delNote:function(r){return r.replace(/\/\*[^\*\/]*\*\//gm,"")}},module.exports=new Strcom;});

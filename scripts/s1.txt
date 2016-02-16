@@ -1,0 +1,37 @@
+/*指令：@方法[参数]*/
+@setBG [url=resource/bg/school01.jpg]
+@setBGM[url=resource/bgm/philosophy01.mp3]
+
+/*台词：#[名字]台词*/
+#[【 瑚太朗 】]
+……青春到底是什么呢。
+
+/*台词：#[名字](立绘){语音}台词*/
+#[【 小鸟 】](resource/lh/kotori03.png){resource/voice/voicetest01.mp3}
+那难道不就是恋爱啦、社团活动啦、朋友啦、吵架之类的吧？
+
+#[【 瑚太朗 】](resource/lh/kotori03.png)
+对小鸟来说也是吗？
+
+#[【 小鸟 】](resource/lh/kotori04.png){resource/voice/voicetest01.mp3}
+我吗……
+
+@setBG[url=resource/bg/school02.jpg]
+
+#(resource/lh/kotori04.png)到底是什么呢，小鸟默念道。此时的她，似乎显得比任何时候都要娇弱。
+她抬起眼，视线穿过绯色的晚霞。
+那里有几乎让人无法直视的、赤红的夕阳。
+
+@setBG[url=resource/bg/school03.jpg]
+
+
+#[【 小鸟 】](resource/lh/kotori04.png)
+我想，是某种耀眼的东西……吧。大概。
+
+
+@xxx [
+	sadasdaadas
+]
+
+
+
