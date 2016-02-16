@@ -1,0 +1,184 @@
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+form,
+fieldset,
+input,
+p,
+blockquote,
+table,
+th,
+td,
+embed,
+object {
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: '微软雅黑', 'Hiragino Sans GB';
+  font-size: 14px;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+fieldset,
+img,
+abbr {
+  border: 0;
+}
+address,
+caption,
+cite,
+code,
+dfn,
+em,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+strong,
+th,
+var {
+  font-weight: normal;
+  font-style: normal;
+}
+ul {
+  list-style: none;
+}
+caption,
+th {
+  text-align: left;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 1.0em;
+}
+a,
+a:visited,
+a:link,
+a:active,
+ins {
+  text-decoration: none;
+  color: inherit;
+}
+.center-con {
+  width: 1280px;
+  margin: 0 auto;
+}
+.gal {
+  width: 960px;
+  height: 540px;
+  float: left;
+  margin: 30px 20px 30px 25px;
+  overflow: hidden;
+  position: relative;
+  -webkit-box-shadow: 0 1px 6px 1px rgba(0, 0, 0, 0.4);
+          box-shadow: 0 1px 6px 1px rgba(0, 0, 0, 0.4);
+}
+.gal-script {
+  margin-top: 30px;
+  min-width: 240px;
+  padding: 5px;
+  min-height: 490px;
+  border: none;
+  background: #eee;
+}
+.btn {
+  display: inline-block;
+  text-align: center;
+  height: 35px;
+  line-height: 35px;
+  font-size: 20px;
+  color: #fff;
+  width: 250px;
+  background: #2196CE;
+  -webkit-transition: ease 0.4s;
+          transition: ease 0.4s;
+  cursor: default;
+}
+.btn:hover {
+  opacity: 0.8;
+}
+.bg {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background: center no-repeat;
+  background-size: cover;
+  -webkit-transition: ease 0.6s;
+          transition: ease 0.6s;
+}
+.dia-block {
+  width: 94%;
+  margin: 0 3%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 10px 20px 10px 10px;
+  height: 150px;
+  position: absolute;
+  bottom: 20px;
+  background: rgba(255, 255, 255, 0.8);
+  color: #222;
+  font-weight: bold;
+  font-size: 20px;
+}
+.dia-block .dia-fonts {
+  font-size: 18px;
+  padding: 5px 0 0 20px;
+  line-height: 1.6em;
+}
+.lh-stage {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  text-align: center;
+  display: table;
+}
+.lh-stage .lh-stage-warp {
+  display: table-cell;
+  vertical-align: bottom;
+  opacity: 0;
+  -webkit-transition: ease 0.6s;
+          transition: ease 0.6s;
+  -webkit-animation: fade-in 0.5s ease forwards;
+          animation: fade-in 0.5s ease forwards;
+}
+.lh-stage .lh-stage-warp img {
+  vertical-align: bottom;
+}
+.hide {
+  opacity: 0;
+}
+@-webkit-keyframes fade-in {
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes fade-in {
+  100% {
+    opacity: 1;
+  }
+}

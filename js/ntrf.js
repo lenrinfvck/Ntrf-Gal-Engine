@@ -1,0 +1,1 @@
+(function(f){typeof define==="function"?define(f):f()})(function(require,exports,module){function Ntrf(){this.gameName=""}var Reader=require("ntrf_reader");Ntrf.ScriptsReader=Reader,module.exports=Ntrf;});

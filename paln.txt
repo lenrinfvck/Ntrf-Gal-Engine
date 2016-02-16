@@ -1,0 +1,39 @@
+﻿<文件目录, 文件名>
+	-资源 [BG, BGM/Sound, 立绘, Voice, ico]
+	-脚本 [按章节模块划分]
+	-配置 [基本配置]
+	-扩展 [扩展插件]
+	-说明 [readme]
+
+<程序结构>
+	-main [初始化config, 执行命令, 渲染开始界面]
+	-cofing [config文件, 界面文件/CSS/html_tpl]
+	-engine [核心模块, 剧本管理, 基本功能, 脚本解释器]
+	-plugin [扩展插件]
+
+<脚本解释器>
+	-config 
+		[游戏名称, 分辨率, 标题栏显示, 存档目录, 图片目录, 音频目录, 脚本目录, 字体颜色, 字体大小, 字体, 制作人信息, 制作时间]
+	
+	-命令脚本 
+		@或$开头, 紧接函数名
+		参数, 间隔符, 可带参数名
+	
+	-标记 *
+		
+	-语法脚本
+		if elseif else endif
+		var 变量
+		
+
+<Player>
+vm + view
+view : arttemplate
+vm: {
+	bg: "",
+	lh: [],
+	bgm: "",
+	voice: "",
+	script: "",
+}
+		
