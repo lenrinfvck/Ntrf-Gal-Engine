@@ -1,6 +1,6 @@
 #Ntrf-Gal-engine
 基于脚本解析的Galgame游戏引擎。  
-演示demo：[演示demo]  
+演示demo：[最简demo](http://lenrinfvck.github.io/Ntrf-Gal-Engine/)
 
 >*进度*  
 >脚本解析 [基本完成]  
