@@ -20,3 +20,8 @@
 + electron 成品打包为PC端能运行的文件
 + phoneGap 同上，移动端
 + webGL 图像处理，可选融入Live2D
+
+### 参考资料
++ [tyranoscript](https://github.com/ShikemokuMK/tyranoscript) ：比较成熟的相关产品
++ [Reitsuki](https://github.com/kasuganosora/Reitsuki) ： 已坑的半成品
++ [tyrano-bulider](http://b.tyrano.jp/) ： 基于tyrano的可视化编辑器，成熟产品，steam有售
